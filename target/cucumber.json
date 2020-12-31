@@ -1,0 +1,51 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-31T20:57:30.718Z",
+        "line": 5,
+        "name": "Alta Clientes Persona Fisica",
+        "description": "",
+        "id": "funcionalidad-alta-clientes;alta-clientes-persona-fisica",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Ingresa al sistema satisfactoriamente \"N3273075\" y \"1xsPJzRT\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Usuario llena datos del cliente",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "validar id de clientes",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Funcionalidad Alta Clientes",
+    "description": "  Validar que se permita el alta de clientes Persona Fisica",
+    "id": "funcionalidad-alta-clientes",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AltaCliente.feature",
+    "tags": []
+  }
+]
